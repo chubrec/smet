@@ -1,3 +1,14 @@
+Construction Estimate App
+
+Stack: FastAPI + PostgreSQL. Frontend to be added (Next.js/Vue). Includes PDF/XLSX export stubs.
+
+Quick start
+
+1. docker compose up -d --build
+2. Apply migrations:
+   docker compose exec backend bash -lc "alembic upgrade head"
+3. Open http://localhost:8000/docs
+
 # smet
 # 🏗️ Приложение для подсчёта смет на строительные работы
 
